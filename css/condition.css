@@ -1,0 +1,94 @@
+.header-background {
+    height: 80vh;
+    width: 100%;
+    max-width: 100%;
+}
+
+.col-12 h1 {
+    color:darksalmon;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.col-12 p {
+    color:lightsalmon;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.Condition {
+    background-color:cornsilk;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 85px;
+}
+
+.conditionitem {
+    padding: 50px;
+}
+
+.box {
+    margin-bottom: 30px;
+    padding: 0px 15px 0px;
+    background-color:bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.box:hover{
+    transform: scale(1.2);
+    background-color:white;
+}
+
+.innerbox {
+    padding: 45px;
+    height: 33.33333%;
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.innerbox img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.innerbox h1 {
+    color:rgb(246, 189, 120);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.innerbox p {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.textbelow p {
+    color:goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer{
+    background-color:pink;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer p {
+    padding-top: 15px;
+}
